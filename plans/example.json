@@ -1,0 +1,20 @@
+{
+  "name": "Example: Create and commit a file",
+  "steps": [
+    {
+      "tool": "write_file",
+      "description": "Create a hello world file",
+      "params": {
+        "path": "./hello.txt",
+        "content": "Hello from Antigravity Hands!"
+      }
+    },
+    {
+      "tool": "read_file",
+      "description": "Verify the file was created",
+      "params": {
+        "path": "./hello.txt"
+      }
+    }
+  ]
+}

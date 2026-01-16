@@ -1,0 +1,14 @@
+{
+    "workflows": [
+        {
+            "name": "General API Request",
+            "status": "PROBATION",
+            "success_count": 0
+        },
+        {
+            "name": "Vercel Deployment",
+            "status": "PROBATION",
+            "success_count": 0
+        }
+    ]
+}

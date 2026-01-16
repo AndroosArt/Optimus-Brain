@@ -1,0 +1,36 @@
+{
+  "id": "77826b2c-585e-43cf-87c0-602976687de3",
+  "timestamp": "2026-01-14T10:01:15.287901",
+  "objective": "Example: Create and commit a file",
+  "status": "COMPLETED",
+  "steps": [
+    {
+      "tool": "write_file",
+      "description": "Create a hello world file",
+      "params": {
+        "path": "./hello.txt",
+        "content": "Hello from Antigravity Hands!"
+      },
+      "status": "COMPLETED",
+      "output": {
+        "message": "Wrote 29 bytes to ./hello.txt",
+        "path": "C:\\Users\\andrew.murray\\.gemini\\antigravity\\scratch\\antigravity-hands\\hello.txt",
+        "bytes": 29
+      }
+    },
+    {
+      "tool": "read_file",
+      "description": "Verify the file was created",
+      "params": {
+        "path": "./hello.txt"
+      },
+      "status": "COMPLETED",
+      "output": {
+        "message": "Read 29 bytes from ./hello.txt",
+        "content": "Hello from Antigravity Hands!",
+        "path": "C:\\Users\\andrew.murray\\.gemini\\antigravity\\scratch\\antigravity-hands\\hello.txt",
+        "bytes": 29
+      }
+    }
+  ]
+}
